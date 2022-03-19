@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('./fonts/vazir.eot');
+    src: url('./fonts/vazir.ttf') format('truetype'), url('./fonts/vazir.woff2') format('woff2'), url('./fonts/vazir.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+
+}
+input,button,form,select{
+    font-family: vazir;
+
+}
+
+body {
+    background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%);
+    font-family: vazir;
+}
